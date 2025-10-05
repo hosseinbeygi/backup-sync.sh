@@ -1,0 +1,11 @@
+# Basic backup
+./backup-sync.sh -s /path/to/source -d /path/to/destination
+
+# With exclude patterns
+./backup-sync.sh -s /source -d /destination -e exclude.txt
+
+# Dry-run mode
+./backup-sync.sh -s /source -d /destination -n
+
+# Custom log file
+./backup-sync.sh -s /source -d /destination -l /path/to/backup.log
